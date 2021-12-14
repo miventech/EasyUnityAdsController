@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.Advertisements;
 
-public class AnuncioController : MonoBehaviour ,IUnityAdsInitializationListener,IUnityAdsLoadListener,IUnityAdsShowListener
+public class AdsController : MonoBehaviour ,IUnityAdsInitializationListener,IUnityAdsLoadListener,IUnityAdsShowListener
 {
     public const string GameID = "4503987";
     public const string InterstitialID  = "Android_Interstitial";
@@ -10,7 +10,7 @@ public class AnuncioController : MonoBehaviour ,IUnityAdsInitializationListener,
     public const string bannerID  = "Android_Banner";
   
     public const bool testMode = false;
-    public static AnuncioController main;
+    public static AdsController main;
     public int numeroDeVecesEnPantalla = 0;
     public int counter = 1;
 
